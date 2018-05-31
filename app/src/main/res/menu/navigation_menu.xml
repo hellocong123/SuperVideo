@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/favorite"
+            android:checkable="true"
+            android:icon="@mipmap/ic_bookmark"
+            android:title="    会员" />
+
+    </group>
+    <item
+        android:id="@+id/wallet"
+        android:icon="@mipmap/ic_comic"
+
+        android:title="    钱包" />
+    <item
+        android:id="@+id/photo"
+        android:icon="@mipmap/ic_documentary"
+        android:title="    相册" />
+    <item
+        android:id="@+id/dress"
+        android:icon="@mipmap/ic_history"
+        android:title="    装扮" />
+    <item
+        android:id="@+id/file"
+        android:icon="@mipmap/ic_live"
+        android:title="    文件" />
+</menu>
